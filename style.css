@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-task {
+    padding: 0.2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn-task {
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.icon-btn {
+    font-size: 1.5rem;
+    width: 1.3rem;
+    cursor: pointer;
+    color: rgb(57, 231, 57);
+}
