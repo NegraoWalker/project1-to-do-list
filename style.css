@@ -6,43 +6,66 @@
 
 body {
     font-family: 'Mouse Memoirs', sans-serif;
+    background-color: #e2ceb3;
     display: flex;
     justify-content: center;
-    background-color: black;
-    color: white;
+    width: 100vw;
+    height: 100vh;
 }
 
+.container-main {
 
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 800px;
+    text-align: center;
+    margin: 1rem;
+}
 
+.title-app {
+    border: 1px solid red;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-right: 30px;
+    color: rgb(32, 31, 31);
+}
 
-
-
-
-
-
-
-
-
-
+.input-btn-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 .input-task {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.7rem;
+    border: 1px solid red;
     padding: 0.2rem;
     outline: none;
     border: none;
     border-radius: 5px;
+    width: 50%;
+    color: rgb(32, 31, 31);
 }
 
-
 .btn-task {
+    border: 1px solid red;
     border: none;
-    background-color: black;
+    background-color: #e2ceb3;
     color: white;
     font-weight: bold;
+    margin-left: 1rem;
 }
 
 .icon-btn {
-    font-size: 1.5rem;
-    width: 1.3rem;
+    border: 1px solid red;
+    font-size: 2rem;
+    width: 1.8rem;
     cursor: pointer;
-    color: rgb(57, 231, 57);
+    color: rgb(51, 197, 51);
+}
+
+.list-task {
+    list-style: none;
 }
