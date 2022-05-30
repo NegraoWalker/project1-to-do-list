@@ -1,3 +1,4 @@
+/*INÍCIO-Estilos iniciais*/
 * {
     padding: 0;
     margin: 0;
@@ -6,16 +7,16 @@
 
 body {
     font-family: 'Mouse Memoirs', sans-serif;
-    background-color: #e2ceb3;
+    background-color: bisque;
     display: flex;
     justify-content: center;
     width: 100vw;
     height: 100vh;
 }
 
-.container-main {
+/*FIM-Estilos iniciais*/
 
-    border: 1px solid blue;
+.container-main {
     border-radius: 5px;
     width: 800px;
     text-align: center;
@@ -23,7 +24,6 @@ body {
 }
 
 .title-app {
-    border: 1px solid red;
     font-size: 2.5rem;
     margin-bottom: 2rem;
     margin-right: 30px;
@@ -31,7 +31,6 @@ body {
 }
 
 .input-btn-container {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -40,7 +39,6 @@ body {
 .input-task {
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 1.7rem;
-    border: 1px solid red;
     padding: 0.2rem;
     outline: none;
     border: none;
@@ -50,18 +48,17 @@ body {
 }
 
 .btn-task {
-    border: 1px solid red;
     border: none;
-    background-color: #e2ceb3;
+    background-color: bisque;
     color: white;
     font-weight: bold;
     margin-left: 1rem;
 }
 
 .icon-btn {
-    border: 1px solid red;
-    font-size: 2rem;
-    width: 1.8rem;
+
+    font-size: 3rem;
+    width: 1rem;
     cursor: pointer;
     color: rgb(51, 197, 51);
 }
@@ -69,3 +66,45 @@ body {
 .list-task {
     list-style: none;
 }
+
+/*INÍCIO-Estilos Dinâmicos*/
+/*Container das li's*/
+.todo {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+/*li's*/
+.todo-list {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*Botões de riscar e eliminar*/
+btn-todo-remove {
+    border: none;
+    background-color: bisque;
+    color: bisque;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.icon-btn-trash {
+    font-size: 1.4rem;
+    width: 1.5rem;
+    margin-top: 0.4rem;
+    color: rgb(236, 45, 45);
+    cursor: pointer;
+}
+
+button {
+    background-color: bisque;
+    border: none;
+    margin-left: 50%;
+}
+
+
+
+/*FIM-Estilos Dinâmicos*/
